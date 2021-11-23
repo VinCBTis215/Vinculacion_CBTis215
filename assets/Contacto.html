@@ -1,0 +1,122 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="css/estilo1.css"></head>
+<body bgcolor="#EEEEEE">
+<h1 >Contacto</h1>
+  <header>
+    <nav>
+   <ul id="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="SeguimientoDeEgresados.html">Seguimiento de egresados</a></li>
+    <li><a href="Emprendedores.html">Emprendedores</a></li>
+    <li><a href="Prototipos.html">Prototipos</a></li>
+    <li><a>Promocion del plantel</a>
+      <ul>
+    <li><a href="Administracion de RH.html">Administracion de recursos humanos</a></li>
+    <li><a href="Contabilidad.html">Contabilidad</a></li>
+    <li><a href="Enfermería.html">Enfermeria General</a></li>
+    <li><a href="MecanicaInd.html">Mecanica Industrial</a></li>
+    <li><a href="Ofimatica.html">Ofimatica</a></li>
+    <li><a href="Programacion.html">Programacion</a></li>
+    <li><a href="BolsaDeTrabajo.html">Bolsa De Trabajo</a></li>
+   </ul>
+ </li>
+   </ul>
+   </nav>
+   <br>
+   <br>
+   <br>
+<form method="post" action="enviar_mail.php">
+
+ <table style="text-align: left; width: 100%;" cellpadding="3" rules="rows">
+
+ <tbody>
+
+   <tr>
+
+     <td>Nombre:</td>
+
+     <td><input type="text" name="nombre" id="nombre" /></td>
+
+   </tr>
+
+   <tr>
+
+     <td>Correo electronico:</td>
+
+     <td><input type="text" name="email1" id="email1" /></td>
+
+   </tr>
+
+   <tr>
+
+     <td>Repite tu correo:</td>
+
+     <td><input type="text" name="email2" id="email2" /></td>
+
+   </tr>
+
+   <tr>
+
+   <td>¿Como nos conociste?:</td>
+
+     <td><select name="conocio" id="conocio">
+
+      <option selected="selected"></option>
+
+      <option>Un amigo</option>
+
+      <option>Un blog</option>
+
+      <option>Un buscador</option>
+
+      <option>Otros</option>
+
+    </select></td>
+
+   </tr>
+
+   <tr>
+
+     <td>Tu pregunta es referente a:</td>
+
+     <td><label><input type="radio" name="referente" id="ref_web" value="web" /> 
+
+      La Web </label><br />
+
+     <label><input type="radio" name="referente" id="ref_fotos" value="fotos" /> 
+
+      La Institucion </label><br />
+
+     <label><input type="radio" name="referente" id="ref_asociacion" value="asociacion" /> 
+
+   </tr>
+
+   <tr>
+
+     <td colspan="2">Escribe lo que quieres preguntarnos:</td>
+
+   </tr>
+
+   <tr>
+
+     <td class="centrado" colspan="2">
+
+      <textarea cols="50" rows="5" name="consulta"></textarea></td>
+
+   </tr>
+
+   <tr>
+
+     <td class="centrado" colspan="2"><input type="submit" value="Enviar" />
+
+       <input type="reset" value="Restablecer" /></td>
+
+   </tr>
+
+  </tbody>
+
+ </table>
+
+</form>
+
+</body></html>
